@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: medium;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.container {
+  background-color: #63ace7;
+  width: 0 auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+  color: white;
+}
+
+footer a {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #7CCAD5;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  &:hover {
+     background-color: #46747a;
+   }
+}
+
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
